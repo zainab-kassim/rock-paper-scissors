@@ -111,9 +111,6 @@ P{
     font-weight: bold;
 }
 @media only screen and (max-width: 550px) {
-    body{
-        background-color: red;
-    }
     #rock{
         font-size: 40px;
     }
@@ -127,7 +124,7 @@ P{
         margin: 3% 40%;
     } */
     #s{
-        padding:13%
+        padding:12%
     }
     #r{
         margin-bottom: 2%;
