@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="game.css">
+  <title>Document</title>
+</head>
+
+<body>
+  <div id="head">
+    <h1 id="head-txt">Rock,Paper,Scissors "Shoot"</h1>
+  </div>
+
+  <div id="container">
+    <span id="name">By Zainab</span>
+    <div id="num-plays">
+      <span>playing to:</span>
+      <input type="number"  id="np"   placeholder="Enter number" name="np"  required />
+    </div>
+  </div>
+
+
+  <div id="container-score">
+    <span id="p1score">PLAYER</span>
+    <div id="right">
+      <span id="cmpscore">COMPUTER</span>
+    </div>
+    <div>
+    </div>
+  </div>
+  <button class="rst">RESET</button>
+
+  <br>
+  <div id="p1scorenum">0</div>
+  <div id="cmpscorenum">0</div>
+
+<div id="space">
+</div>
+
+<br>
+  <div class="icon">
+      <button id="r">
+        <i id="rock" class="fa fa-hand-rock-o"   aria-hidden="true"></i>
+      </button>
+   
+      <button id="p">
+        <i id="paper" class="fa fa-hand-paper-o" aria-hidden="true"></i>
+      </button>
+    </div>
+
+      <div class="icon2">
+      <button id="s">
+         <i id="scissors" class="fa fa-hand-scissors-o"  aria-hidden="true"></i>
+       </button>
+      </div>
+    <P id="result"></P>
+    <p id="result2"></p> 
+    
+   
+
+
+  <script src="game.js"></script>
+</body>
+
+</html>

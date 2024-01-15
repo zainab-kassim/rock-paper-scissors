@@ -1,0 +1,139 @@
+* {
+    margin: 0px;
+}
+
+h1 {
+    text-align: center;
+    padding: 3% 3%;
+    background-color: #1b2b30;
+    color: white;
+    font-weight: bold;
+}
+
+#num-plays {
+    float: right;
+    font-weight: bold;
+}
+
+#name {
+    float: left;
+    font-weight: bold;
+}
+
+#p1score {
+    float: left;
+}
+
+#container {
+    margin-top: 1%;
+    padding: 2% 10% 2% 10%;
+}
+
+#container-score {
+    margin-top: 6%;
+    padding: 0% 10% 0% 10%;
+    font-weight: bold;
+
+}
+
+#right {
+    float: right;
+}
+
+#p1scorenum {
+    font-size: 100px;
+    float: right;
+    margin-right: 11.5%;
+
+}
+
+#cmpscorenum {
+    font-size: 100px;
+    float: left;
+    margin-left: 11%;
+
+}
+.rst{
+    margin-left: 32%;
+    font-weight: bold;
+    border-radius: 100px;
+    background-color: black;
+    color: white;
+}
+
+#space {
+    margin-bottom: 8%;
+}
+
+#r {
+    border-radius: 50%;
+    cursor: pointer;
+    border-width: 10px;
+    padding: 4%;
+    border-color: aqua;
+    margin-right: 30%;
+}
+
+#p {
+    border-radius: 50%;
+    cursor: pointer;
+    border-width: 10px;
+    padding: 4%;
+    border-color: orangered;
+}
+
+#s {
+    border-radius: 50%;
+    cursor: pointer;
+    border-width: 10px;
+    padding: 15%;
+    border-color: limegreen;
+}
+#rock{
+    font-size: 120px;
+}
+#paper{
+    font-size: 120px;
+}
+#scissors{
+    font-size: 107px;
+}
+.icon {
+    margin: 2% 30%;
+}
+
+.icon2 {
+    margin: 3% 41%;
+
+}
+P{
+    text-align: center;
+    font-weight: bold;
+}
+@media only screen and (max-width: 550px) {
+    body{
+        background-color: red;
+    }
+    #rock{
+        font-size: 40px;
+    }
+    #paper{
+        font-size: 40px;
+    }
+    #scissors{
+        font-size: 27px;
+    }
+    /* .icon {
+        margin: 3% 40%;
+    } */
+    #s{
+        padding:13%
+    }
+    #r{
+        margin-bottom: 2%;
+    }
+    #p{
+        margin-bottom: 2%;
+    }    
+
+  }
